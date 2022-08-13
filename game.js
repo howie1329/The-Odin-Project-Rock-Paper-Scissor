@@ -60,6 +60,13 @@ function game(params) {
         console.log('Loses: ' + lose)
         console.log('Tie: ' + tie)
     }
+    if (wins > lose){
+        console.log('Player Wins Game')
+    } else if (lose > wins){
+        console.log('Computer Wins Game')
+    }else{
+        console.log('Tie')
+    }
 }
 
 game()
