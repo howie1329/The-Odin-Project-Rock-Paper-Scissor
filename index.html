@@ -1,8 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="game.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="game.js" defer></script>
     </head>
-    <body>
+    <body class = body>
+        <div class = header>
+            <h1>This Is Rock Paper Scissors</h1>
+        </div>
+        <div class = gamebuttons>
+            <button class = rockbutton ><img src="rock.png" alt=""></button>
+            <button class = paperbutton><img src="paper.png" alt=""></button>
+            <button class = scissorbutton><img src="scissors.png" alt=""></button>
+        </div>
+        <div class = displaycomputermove>
+            <p id = computermove>COMPUTER IS THIKING...</p>
+            <p id = gamestatus></p>
+        </div>
+        <div class = scoreboard> 
+            <p id = playerwins>Wins: 0</p>
+            <p id = gameties>Tie: 0</p>
+            <p id = computerwins>Loses: 0</p>
+        </div>
+        <div class = resetbutton>
+            <button class = reset> Reset</button>
+        </div>
     </body>
 </html>
