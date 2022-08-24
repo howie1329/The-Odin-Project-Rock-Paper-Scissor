@@ -3,7 +3,6 @@
 }
 .body{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -23,18 +22,21 @@
     border-width: 3px;
     border-color: black;
     margin-right: 5px;
+    box-shadow: 2px 0px 25px black;
 }
 .gamebuttons .paperbutton{
     border-style: solid;
     border-width: 3px;
     border-color: black;
     margin-right: 5px;
+    box-shadow: 2px 0px 25px black;
 }
 .gamebuttons .scissorbutton{
     border-style: solid;
     border-width: 3px;
     border-color: black;
     margin-right: 5px;
+    box-shadow: 2px 0px 25px black;
 }
 .scoreboard{
     display: flex;
